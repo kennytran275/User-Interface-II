@@ -1,63 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <!-- Link to CSS-->
-    <link rel="stylesheet" href="style/index.css">
-</head>
-<body>
-    <header>
-        <h1>Kenny Tran</h1>
+    <link rel="stylesheet" href="style/index.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Kenny Tran</h1>
 
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
-            <a href="projects.html">Projects</a>    
-        </nav>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="projects.html">Projects</a>
+      </nav>
     </header>
 
     <section>
-        <div class="banner">
-            <img src="images/Myelf.jpg" alt="A picture of myself" class = "left">
+      <div class="banner">
+        <img src="images/Myself.jpg" alt="A picture of myself" class="left" />
 
-            <div class="right">
-                <h2>Kenny Tran</h2>
-                <a href="">My Projects</a>
-                <p>
-                    Here are some of my side projects and interests below!
-                </p>
-            </div>
+        <div class="right">
+          <h2>Kenny Tran</h2>
+
+          <a href="projects.html" class="my-project-button">My Projects</a>
+
+          <p>Here are some of my side projects and interests below!</p>
         </div>
+      </div>
     </section>
+    <!-- do the div really need a class or does the p need a class? -->
+    <section class="gallery">
+      <div class="card">
+        <img src="images/game.jpg" class="box" />
 
-    <section class = "gallery">
-        <div class="box">1</div>
-        <p>1</p>
-        <div class="box">2</div>
-        <p>2</p>
-        <div class="box">3</div>
-        <p>3</p>
-        <div class="box">4</div>
-        <p>4</p>
-        <div class="box">5</div>
-        <p>5</p>
-        <div class="box">6</div>
-        <p>6</p>
-        <div class="box">7</div>
-        <p>7</p>
-        <div class="box">8</div>
-        <p>8</p>
+        <p>Gaming</p>
+      </div>
+
+      <div class="card">
+        <img src="images/books.jpg" class="box" />
+
+        <p>Books</p>
+      </div>
+
+      <div class="card">
+        <img src="images/coding.jpg" class="box" />
+
+        <p>Coding</p>
+      </div>
+
+      <div class="card">
+        <img src="images/food.jpg" class="box" />
+        <p>Food</p>
+      </div>
+
+      <div class="card">
+        <img src="images/game.jpg" class="box" />
+
+        <p>Gaming</p>
+      </div>
+
+      <div class="card">
+        <img src="images/books.jpg" class="box" />
+
+        <p>Books</p>
+      </div>
+
+      <div class="card">
+        <img src="images/coding.jpg" class="box" />
+
+        <p>Coding</p>
+      </div>
+
+      <div class="card">
+        <img src="images/food.jpg" class="box" />
+        <p>Food</p>
+      </div>
     </section>
 
     <footer>
-        <h2>
-            Want to learn more about me?
-        </h2>
+      <h2 class="footer">Want to learn more about me?</h2>
 
-        <nav><a href="contact.html">Contact</a></nav>
+      <nav class="footer-nav">
+        <a href="contact.html">Contact</a>
+
+        <a
+          href="https://www.linkedin.com/in/kenny-tran-125326122/"
+          target="_blank"
+          >LinkedIn</a
+        >
+      </nav>
     </footer>
-</body>
+  </body>
 </html>
