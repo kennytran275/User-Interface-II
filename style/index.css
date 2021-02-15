@@ -119,3 +119,26 @@ footer .footer-nav {
   display: flex;
   justify-content: center;
 }
+
+/* media queries */
+
+/* tablet */
+
+@media(max-width:800px) {
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header h1 {
+    margin: 0 25%;
+  }
+
+  .header nav a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
